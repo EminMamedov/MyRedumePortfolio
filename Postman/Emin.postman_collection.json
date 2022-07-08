@@ -1,0 +1,97 @@
+{
+	"info": {
+		"_postman_id": "251be3f3-b6ae-42cf-bda7-462c82e17247",
+		"name": "Emin",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "21579769"
+	},
+	"item": [
+		{
+			"name": "Emin New",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{ \r\n\r\n\"location\": { \r\n\r\n\"lat\": -38.383494, \r\n\r\n\"lng\": 33.427362 \r\n\r\n}, \"accuracy\": 50, \r\n\r\n\"name\": \"Frontline house\", \r\n\r\n\"phone_number\": \"(+91) 983 893 3937\", \r\n\r\n\"address\": \"29, side layout, cohen 09\", \r\n\r\n\"types\": [\r\n\r\n \"shoe park\", \r\n\r\n\"shop\"\r\n\r\n ],\r\n\r\n \"website\": \"http://google.com\", \r\n\r\n\"language\": \"French-IN\"\r\n\r\n }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://rahulshettyacademy.com/maps/api/place/add/json?key=qaclick123",
+					"protocol": "https",
+					"host": [
+						"rahulshettyacademy",
+						"com"
+					],
+					"path": [
+						"maps",
+						"api",
+						"place",
+						"add",
+						"json"
+					],
+					"query": [
+						{
+							"key": "key",
+							"value": "qaclick123"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Emin GET",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://rahulshettyacademy.com/maps/api/place/get/json?key=qaclick123&place_id=a97d26ae7433784d68ba5419a625d5d6",
+					"protocol": "https",
+					"host": [
+						"rahulshettyacademy",
+						"com"
+					],
+					"path": [
+						"maps",
+						"api",
+						"place",
+						"get",
+						"json"
+					],
+					"query": [
+						{
+							"key": "key",
+							"value": "qaclick123"
+						},
+						{
+							"key": "place_id",
+							"value": "a97d26ae7433784d68ba5419a625d5d6"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Emin PUT",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "Emin DELETE",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		}
+	]
+}
